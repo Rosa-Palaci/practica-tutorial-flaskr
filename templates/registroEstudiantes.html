@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro para Estudiantes de la Escuela Primaria Metropolitana</title>
+</head>
+<body>
+    <h1>Registro para Estudiantes</h1>
+
+    <form action="/submit-form" method="post">
+        <label for="num_lista">Ingresa tu número de lista</label>
+        <input type="text" id="num_lista" name="num_lista"><br><br>
+
+        <label for="grupo">Selecciona tu grupo:</label>
+        <select id="grupo" name="grupo">
+            <option value="A">Grupo A</option>
+            <option value="B">Grupo B</option>
+            <option value="B">Grupo C</option>
+        </select><br><br>
+
+        <label for="genero">Selecciona tu género:</label>
+        <select id="genero" name="genero">
+            <option value="femenino">Femenino</option>
+            <option value="masculino">Masculino</option>
+            <!-- <option value="otro">Otro</option> -->
+        </select><br><br>
+
+        <label for="ciclo_escolar">Ingresa Ciclo Escolar:</label>
+        <input type="text" id="ciclo_escolar" name="ciclo_escolar"><br><br>
+
+        <button type="submit">Registrar</button>
+    </form>
+    
+</body>
+</html>
